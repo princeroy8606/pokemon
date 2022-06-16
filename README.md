@@ -1,2 +1,5 @@
 # pokemon
-test project for an intership.
+test project.
+
+## usage
+search for a pokemon to get its complete details. Pokemon free api used.
