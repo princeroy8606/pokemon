@@ -1,0 +1,57 @@
+#search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: #303030;
+    transition: all 0.5s  ease-in-out;
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 4rem;
+        text-align: center;
+        margin: 0 0 0.5rem 0;
+        color: lightseagreen;
+    }
+
+    input {
+        width: 30%;
+        padding: 1rem 2rem;
+        border-radius: 0.5rem;
+        margin-right: 2rem;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+    }
+
+    button {
+        padding: 1rem 2rem;
+        border-radius: 0.5rem;
+        border: none;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #ddd;
+        }
+    }    
+}
+    
+
+@media screen and (max-width: 900px) {
+    #search-container {
+        h1 {
+            font-size: 2.5rem;
+        }
+    }
+}
+   
