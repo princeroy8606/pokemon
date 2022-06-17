@@ -52,6 +52,15 @@
         h1 {
             font-size: 2.5rem;
         }
+        div{
+            flex-direction: column;
+            row-gap:1rem ;
+            
+            input{
+                margin-right: unset;
+                width: 70%;
+            }
+        }
     }
 }
    

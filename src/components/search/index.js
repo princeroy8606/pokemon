@@ -23,7 +23,7 @@ const Search = ({query,setQuery,pokemonData,setPokemonData}) => {
 
     return(            
         <div id="search-container">
-            <h1> FIND YOUR POKKEE</h1>
+            <h1> FIND YOUR POKEMON</h1>
             <div>
             <input 
                 type="text" 
