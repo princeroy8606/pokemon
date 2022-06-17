@@ -4,7 +4,7 @@ import Search from "./components/search";
 import "./index.css";
 
 const App = () => {
-  const [query, setQuery] = useState('mew');
+  const [query, setQuery] = useState('');
   const [pokemonData, setPokemonData] = useState();
 
   return (
