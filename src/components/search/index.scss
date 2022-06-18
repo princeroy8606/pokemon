@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+KR:wght@500&family=Pacifico&family=Poppins:wght@500;700&family=Roboto+Slab:wght@500&family=Rubik&display=swap');
+
+
 #search-container {
     display: flex;
     align-items: center;
@@ -5,7 +9,10 @@
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    background-color: #303030;
+    background: url(https://images8.alphacoders.com/117/thumb-1920-1177510.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     transition: all 0.5s  ease-in-out;
 
     div {
@@ -19,9 +26,12 @@
 
     h1{
         font-size: 4rem;
+        font-weight: 4000;
+        font-family: 'Noto Sans KR', sans-serif;
         text-align: center;
         margin: 0 0 0.5rem 0;
-        color: lightseagreen;
+        color: skyblue;
+        text-shadow: 0.3rem 0.2rem 0.5rem rgb(32, 76, 82);
     }
 
     input {
@@ -32,16 +42,22 @@
         border: none;
         outline: none;
         box-sizing: border-box;
+        box-shadow: 0.5rem 0.5rem 0.6rem rgb(129, 127, 127) ;
+        background-color: rgba(204, 147, 235, 0.842);
+        color: rgb(246, 225, 173);
     }
 
     button {
         padding: 1rem 2rem;
         border-radius: 0.5rem;
         border: none;
+        background-color: rgba(204, 147, 235, 0.842);
+        font-weight: 600;
+
 
         &:hover {
             cursor: pointer;
-            background-color: #ddd;
+            background-color: rgba(204, 147, 235, 0.905);
         }
     }    
 }
@@ -49,6 +65,10 @@
 
 @media screen and (max-width: 900px) {
     #search-container {
+        background:url(https://i.pinimg.com/564x/4d/bd/6b/4dbd6b6253ea8098cc6c9eb24b572bda.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         h1 {
             font-size: 2.5rem;
         }
@@ -59,6 +79,8 @@
             input{
                 margin-right: unset;
                 width: 70%;
+                background: #303030;
+                color: #ddd;
             }
         }
     }
